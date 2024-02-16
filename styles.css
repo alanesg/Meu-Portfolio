@@ -139,6 +139,16 @@ nav .navlinks li a{
 .btn.active{
     border-color: blueviolet;
 }
+.hero-text .social i{
+    color: violet;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.hero-text .social i:hover{
+    color: blueviolet;
+    transform: rotate(360deg);
+}
 
 /*Design responsivo e displaying*/
 
@@ -147,6 +157,7 @@ nav .navlinks li a{
     nav .togglebtn{
         display:initial;
     }
+    /*para Toggle button*/
     .click {
         top:45px;
     }
@@ -178,5 +189,27 @@ nav .navlinks li a{
         box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
         transition: 0.5s;
         padding: 25px 0;
+    }
+    nav .navlinks li{
+        display: block;
+    }
+    nav .navlinks li a{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    nav .navlinks.open{
+        right: 0;
+    }
+}
+
+@media(max-width:768px)
+{
+    .container{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .hero-text{
+        padding: 40px 0px;
     }
 }
