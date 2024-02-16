@@ -31,13 +31,17 @@
             </header>
             <div class="container">
                 <div class="hero-pic">
-                    <img src="./img/ALANES1.jpeg" alt="">
+                    <img src="./img/ALANES2.jpeg" alt="">
         </div>
         <div class="hero-text">
-            <h5>Hi I'm <span class="Front End Developer"></span></h5>
+            <h5>Olá! Eu sou <span class="Front End Developer"></span></h5>
             <h1>Alanes Gomes </h1>
             <p>
-                Olá
+                Sou uma estudante na área de T.I e tenho paixão pelo Front End.
+                Gosto de ambientes calmos e aconchegantes, gosto de aprender coisas diferentes,
+                sou observadora e analista. saiba mais detalhes clicando no meu linkedin 
+                e veja alguns dos meus projetos clicando no meu github.
+                
             </p>
             <div class="btn-group">
                 <a href="#" class="btn active">Download CV</a>
@@ -45,11 +49,25 @@
             </div>
 
             <div class="social">
-                <a href="#"><i class="fa-brands fa-Whatsapp"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-Instagram"></i></a>
-            </div>
+                <a href="https://www.linkedin.com/in/alanesgomes"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/alanesg"><i class="fa-brands fa-github"></i></a>
+                
+                  </div>
+             </div>  
+         </div>
+    </div>
+    </div>
+    <!--criando botão click-->
+    <script>
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
 
-    </div>  
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+
+        })
+    </script>
 </body>
 </html>

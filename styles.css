@@ -4,6 +4,7 @@
     margin: 0;
     font-family: poppins,sans-serif;
     text-decoration: none;
+    overflow: visible;
 }
 body{
     overflow: hidden;
@@ -179,7 +180,7 @@ nav .navlinks li a{
     nav .navlinks{
         position: absolute;
         top:110px;
-        right: 0;
+        right: 60%;
         bottom: 0;
         width: 60%;
         height: 100vh;
